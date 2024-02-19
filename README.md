@@ -1,7 +1,8 @@
 
 # Wireless Networking and Computing Lab
 
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+
+[![Deploy Jekyll](https://github.com/WNCLAB/wnclab.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/WNCLAB/wnclab.github.io/actions/workflows/jekyll.yml)
 
 The homepage for WNCL, generated from the [academicpages](academicpages/academicpages.github.io). 
 
