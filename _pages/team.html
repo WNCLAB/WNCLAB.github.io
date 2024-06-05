@@ -41,14 +41,14 @@ author_profile: true
 
 {% if site.data.team.students %}
 <h2>Students</h2>
-<div class="team-grid">
+<div class="student-grid">
   {% for member in site.data.team.students %}
-  <div class="team-member">
-    <div class="team-member-photo-column">
+  <div class="student-member">
+    <div class="student-photo-column">
       <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" class="team-member-photo">
     </div>
-    <div class="team-member-info-column">
-      <div class="team-member-details">
+    <div class="student-info-column">
+      <div class="student-details">
         {% if member.page != 'none' %}
         <a href="{{ member.page | relative_url }}">
           <h3>{{ member.name }}</h3>
@@ -57,9 +57,9 @@ author_profile: true
         <h3>{{ member.name }}</h3>
         {% endif %}
         <!-- Add additional details for students if needed -->
+        <p class="team-member-bio">{{ member.bio }}</p>
         <p class="team-member-institution">{{ member.institution }}</p>
         <p class="team-member-email">Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
-        <p class="team-member-bio">{{ member.bio }}</p>
       </div>
     </div>
   </div>
