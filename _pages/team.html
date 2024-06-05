@@ -6,7 +6,77 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% if site.data.team.faculty %}
+<h2>Faculty</h2>
+<div class="team-grid">
+  {% for member in site.data.team.faculty %}
+  <div class="team-member">
+    <div class="team-member-photo-column">
+      <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" class="team-member-photo">
+    </div>
+    <div class="team-member-info-column">
+      <div class="team-member-details">
+        {% if member.page != 'none' %}
+        <a href="{{ member.page | relative_url }}">
+          <h3>{{ member.name }}</h3>
+        </a>
+        {% else %}
+        <h3>{{ member.name }}</h3>
+        {% endif %}
+        <p class="team-member-title">{{ member.title }}</p>
+        <p class="team-member-institution">{{ member.institution }}</p>
+        <p class="team-member-email">Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+        {% if member.tel != 'none' %}
+        <p class="team-member-tel">Tel: {{ member.tel }}</p>
+        {% endif %}
+        <p class="team-member-office">Office: {{ member.office }}</p>
+        <p class="team-member-bio">{{ member.bio }}</p>
+      </div>
 
-{% for post in site.team %}
-  {% include archive-single.html %}
-{% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if site.data.team.students %}
+<h2>Students</h2>
+<div class="team-grid">
+  {% for member in site.data.team.students %}
+  <div class="team-member">
+    <div class="team-member-photo-column">
+      <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" class="team-member-photo">
+    </div>
+    <div class="team-member-info-column">
+      <div class="team-member-details">
+        {% if member.page != 'none' %}
+        <a href="{{ member.page | relative_url }}">
+          <h3>{{ member.name }}</h3>
+        </a>
+        {% else %}
+        <h3>{{ member.name }}</h3>
+        {% endif %}
+        <!-- Add additional details for students if needed -->
+        <p class="team-member-institution">{{ member.institution }}</p>
+        <p class="team-member-email">Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+        <p class="team-member-bio">{{ member.bio }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if site.data.team.photos %}
+<h2>Lab Photos</h2>
+<div class="photo-grid">
+  {% for photo in site.data.team.photos %}
+  <div class="photo-item">
+    <a href="{{ photo.url | relative_url }}" data-lightbox="team-photos" data-title="{{ photo.caption }}">
+      <img src="{{ photo.url | relative_url }}" alt="{{ photo.caption }}" class="photo-image">
+    </a>
+    <p class="photo-caption">{{ photo.caption }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

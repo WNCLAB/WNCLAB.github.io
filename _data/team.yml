@@ -1,0 +1,53 @@
+faculty:
+  - name: Dr. Qiang (John) Ye
+    photo: /images/team/Qiang_John_Ye_UCalgary.jpg
+    title: Assistant Professor, PhD, SMIEEE 
+    institution: University of Calgary
+    email: qiang.ye@ucalgary.ca
+    tel: (403) 220-7601
+    office: ICT 352B
+    page: https://qiang-john-ye.github.io
+    bio:  Director of the WNCL lab.
+  - name: Kaiyang Liu
+    photo: /images/team/Kaiyang_Liu_page.jpg
+    title: Assistant Professor, PhD 
+    institution: Memorial University
+    email: kaiyang.liu@mun.ca
+    tel: none
+    office: EN-2033, S. J. Carew Building
+    bio: Director of the WNCL lab.
+    page: https://liu-kaiyang.github.io
+
+students:
+  - name: Dong Jia 
+    photo: /images/team/dong-profile.jpg
+    institution: University of Calgary
+    email: dong.jia@ucalgary.ca
+    bio: MSc student.
+    page: https://kobehub.github.io
+  - name: Hong Wang
+    photo: /images/team/hong-profile.jpg
+    institution: Memorial University
+    email: hongw@mun.ca
+    bio: MSc student.
+    page: none
+  - name: Vahid Reza Niazmand
+    photo: /images/team/vahid-profile.jpeg
+    institution: Memorial University
+    email: vrniazmand@mun.ca
+    bio: MSc student.
+    page: https://vahidrn98.github.io/
+
+
+photos:
+  - url: /images/mun/mun-lab.jpg
+    caption: Lab in MUN
+  - url: /images/mun/mun-group-photo.jpg
+    caption: Group photo in MUN
+  - url: /images/mun/mun-lab-people.jpg
+    caption: Group photo in MUN
+  - url: /images/mun/lab-inside.jpg
+    caption: Lab inside
+  - url: /images/mun/device.jpg
+    caption: Lab devices
+
