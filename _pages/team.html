@@ -45,7 +45,7 @@ author_profile: true
   {% for member in site.data.team.students %}
   <div class="student-member">
     <div class="student-photo-column">
-      <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" class="team-member-photo">
+      <img src="{{ member.photo | relative_url }}" alt="{{ member.name }}" class="student-photo">
     </div>
     <div class="student-info-column">
       <div class="student-details">
@@ -56,16 +56,16 @@ author_profile: true
         {% else %}
         <h3>{{ member.name }}</h3>
         {% endif %}
-        <!-- Add additional details for students if needed -->
-        <p class="team-member-bio">{{ member.bio }}</p>
-        <p class="team-member-institution">{{ member.institution }}</p>
-        <p class="team-member-email">Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+        <p class="student-bio">{{ member.bio }}</p>
+        <p class="student-institution">{{ member.institution }}</p>
+        <p class="student-email">Email:<a href="mailto:{{ member.email }}"> {{ member.email }}</a></p>
       </div>
     </div>
   </div>
   {% endfor %}
 </div>
 {% endif %}
+
 
 {% if site.data.team.photos %}
 <h2>Lab Photos</h2>
