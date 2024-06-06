@@ -134,3 +134,27 @@
     text-decoration: none;
     color: inherit;
 }
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+
+    .team-grid,
+    .student-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team-member {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .team-member-photo-column,
+    .student-photo-column {
+        margin-bottom: 1rem;
+    }
+
+    .team-member-info-column,
+    .student-info-column {
+        text-align: center;
+    }
+}
