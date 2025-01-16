@@ -1,0 +1,58 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0052CC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E90FF;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="lightBlueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4B9FE1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66B2FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main Logo Group -->
+  <g transform="translate(80, 30)">
+    <!-- Circuit Brain Pattern -->
+    <path d="M30 40 L60 40 L90 70 L120 40 L150 40 L180 70 L210 40" 
+          stroke="url(#blueGradient)" 
+          stroke-width="3" 
+          fill="none"/>
+    
+    <!-- Network Nodes -->
+    <circle cx="30" cy="40" r="8" fill="url(#lightBlueGradient)"/>
+    <circle cx="90" cy="70" r="8" fill="url(#lightBlueGradient)"/>
+    <circle cx="150" cy="40" r="8" fill="url(#lightBlueGradient)"/>
+    <circle cx="210" cy="40" r="8" fill="url(#lightBlueGradient)"/>
+    
+    <!-- Wireless Signal Arcs -->
+    <path d="M90 20 Q120 0 150 20" 
+          stroke="url(#blueGradient)" 
+          stroke-width="2.5" 
+          fill="none"/>
+    <path d="M90 30 Q120 10 150 30" 
+          stroke="url(#blueGradient)" 
+          stroke-width="2.5" 
+          fill="none"/>
+    
+    <!-- Neural Network Connections -->
+    <line x1="30" y1="40" x2="150" y2="40" 
+          stroke="url(#blueGradient)" 
+          stroke-width="2" 
+          stroke-dasharray="4,4"/>
+    <line x1="90" y1="70" x2="210" y2="40" 
+          stroke="url(#blueGradient)" 
+          stroke-width="2" 
+          stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- WNCL Text -->
+  <text x="200" y="140" 
+        text-anchor="middle" 
+        font-family="Inter, Arial, sans-serif" 
+        font-weight="700" 
+        font-size="46" 
+        fill="url(#blueGradient)">
+    WNCL
+  </text>
+</svg>

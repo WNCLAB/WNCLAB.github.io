@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://wnclab.github.io/sitemap.xml
