@@ -2,7 +2,7 @@
 layout: page
 firstname: Danesh
 lastname: Abdollahi
-pronouns: she/her
+pronouns: he/him
 description: MSc Student
 img: assets/img/people/danesh-profile.jpg
 email: danesh.abdollahi@ucalgary.ca
