@@ -54,9 +54,9 @@ og_image: /assets/img/logos/wncl.svg # The site-wide (default for all links) Ope
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: calgaryml # your GitHub user name
+github_username: wnclab # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: UCalgaryML # your Twitter handle
+# twitter_username: # your Twitter handle
 # linkedin_username: yanii # your LinkedIn user name
 # scholar_userid: Qy9yv44AAAAJ # your Google Scholar ID
 # orcid_id: 0000-0002-9797-5888 # your ORCID ID

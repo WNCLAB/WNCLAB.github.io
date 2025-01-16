@@ -74,6 +74,9 @@
             {%- if person.rss_icon -%}
             <a href="{{ person.baseurl | prepend: person.url }}/feed.xml" title="RSS Feed"><i class="icon mr-1 p-0 fas fa-rss-square"></i></a>
             {% endif %}
+            {%- if person.institute -%}
+            <a href="{{ person.institute.url | relative_url }}" title="{{ person.institute.name }}"><i class="icon mr-1 p-0 fas fa-university"></i></a>
+            {% endif %}
           </div>
           <div class="card-body">
             <h3 class="card-text mt-1">{{ person.description }}</h3>

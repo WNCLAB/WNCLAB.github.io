@@ -16,5 +16,5 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 
-The **Calgary Machine Learning Lab**
-is a research group led by [Yani Ioannou](https://yani.ai) within the [Schulich School of Engineering](https://schulich.ucalgary.ca) at the [University of Calgary](https://www.ucalgary.ca). The lab has a research focus on improving Deep Neural Network (DNN) training and models. Topics of research include: Sparse Neural Network Training, Bias and Robustness of Efficient Deep Learning methods and Efficient Inference with Large Language Models.
+The **Wireless Networking and Computing Lab (WNCL)**
+is a collaborative research group jointly directed by [Dr. Qiang (John) Ye](https://qiang-john-ye.github.io/index.html) from the [University of Calgary](https://www.ucalgary.ca) and [Dr. Kaiyang Liu](https://liu-kaiyang.github.io/) from [Memorial University](https://mun.ca). The lab specializes in cutting-edge research on advanced networking and intelligent computing for B5G/6G technologies. Key research areas include network slicing, digital-twin-assisted wireless networking, autonomous vehicular networks, edge intelligence for IoT, LEO satellite-based space edge computing, and wireless body area networks. WNCL strives to drive innovation in next-generation wireless communication and computing systems.

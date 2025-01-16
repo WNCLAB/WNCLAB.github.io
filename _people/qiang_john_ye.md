@@ -10,4 +10,7 @@ linkedin_username: qiang-john-ye-7a5746141
 email: qiang.ye@ucalgary.ca
 category: Lab Director
 show: true
+institute:
+    name: University of Calgary
+    url: https://ucalgary.ca/
 ---

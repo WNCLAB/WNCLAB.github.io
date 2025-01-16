@@ -1,6 +1,6 @@
 ---
 layout: page
-firstname: Jaiyang
+firstname: Kaiyang
 lastname: Liu
 pronouns: he/him
 description: Assistant Professor, PhD, SMIEEE
@@ -10,4 +10,7 @@ linkedin_username: kaiyang-liu-399458168
 email: kaiyang.liu@mun.ca
 category: Lab Director
 show: true
+institute:
+    name: Memorial University
+    url: https://mun.ca/
 ---
