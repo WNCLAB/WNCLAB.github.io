@@ -1,4 +1,5 @@
 ---
+title: Hong Wang
 layout: page
 firstname: Hong
 lastname: Wang

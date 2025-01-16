@@ -1,4 +1,5 @@
 ---
+title: Jinhao Luo
 layout: page
 firstname: Jinhao
 lastname: Luo
@@ -7,6 +8,6 @@ description: MSc Student <br/> (Winter 2025-Now)
 img: assets/img/people/jinhao-profile.jpg
 email: jinhaol@mun.ca
 category: Current Students
-rank: 7
+rank: 8
 show: true
 ---

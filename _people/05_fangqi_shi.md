@@ -1,4 +1,5 @@
 ---
+title: Fangqi Shi
 layout: page
 firstname: Fangqi
 lastname: Shi
@@ -8,5 +9,5 @@ img: assets/img/people/fangqi-profile.jpg
 email: fangqi.shi@ucalgary.ca
 category: Current Students
 show: true
-rank: 4
+rank: 5
 ---

@@ -1,4 +1,5 @@
 ---
+title: Aly Ahmad
 layout: page
 firstname: Aly
 lastname: Ahmad
@@ -9,6 +10,6 @@ redirect: https://github.com/alyeyad
 email: aly.ahmad@ucalgary.ca
 github_username: alyeyad
 category: Current Students
-rank: 5
+rank: 6
 show: true
 ---

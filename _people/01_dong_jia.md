@@ -1,4 +1,5 @@
 ---
+title: Dong Jia
 layout: page
 firstname: Dong
 lastname: Jia

@@ -1,4 +1,5 @@
 ---
+title: Danesh Abdollahi
 layout: page
 firstname: Danesh
 lastname: Abdollahi
@@ -7,6 +8,6 @@ description: MSc Student <br/> (Fall 2024-Now)
 img: assets/img/people/danesh-profile.jpg
 email: danesh.abdollahi@ucalgary.ca
 category: Current Students
-rank: 6
+rank: 7
 show: true
 ---
