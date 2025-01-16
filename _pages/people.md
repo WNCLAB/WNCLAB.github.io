@@ -16,7 +16,7 @@ horizontal: false
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
   {%- assign categorized_people = site.people | where: "category", category -%}
-  {%- assign sorted_people = categorized_people | sort: "lastname" %}
+  {%- assign sorted_people = categorized_people | sort: "rank" %}
   <!-- Generate cards for each person -->
   <div class="grid">
     {%- for person in sorted_people -%}

@@ -12,7 +12,7 @@
               path=person.img 
               alt="Portrait" class="img-fluid rounded-circle z-depth-0" -%}
           {%- endif %}
-          <h2 class="card-title text-capitalize">{{ person.firstname }} {{ person.lastname }}</h2>
+          <h2 class="card-title text-capitalize person-name">{{ person.firstname }} {{ person.lastname }}</h2>
           {%- if person.pronouns -%}
           <h3 class="card-title card-pronouns mb-2">{{ person.pronouns}}</h3>
           {%- endif -%}
@@ -84,3 +84,18 @@
         </div>
       </a>
     </div>
+    <!-- Handle lengthy names -->
+    <!-- Handle lengthy names -->
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var nameElements = document.querySelectorAll(".person-name");
+        nameElements.forEach(function(nameElement) {
+          var nameLength = nameElement.textContent.length;
+          console.log("Name: " + nameElement.textContent + " Length: " + nameLength);
+          if (nameLength > 15) {// Adjust the length threshold as needed
+            nameElement.style.fontSize = "1.6em";
+            // nameElement.style.fontWeight = "bold"; // Make the text bold
+          }
+        });
+      });
+    </script> -->

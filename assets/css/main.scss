@@ -6,13 +6,11 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
-@import
-  "variables",
-  "themes",
-  "layout",
-  "base",
-  "distill"
-;
+@use "variables" as *;
+@use "themes";
+@use "layout" with ($max-content-width: $max-content-width);
+@use "base";
+@use "distill";
 
 * {
 font-family: proxima-nova, "Proxima Nova", "Raleway", Arial, Helvetica;

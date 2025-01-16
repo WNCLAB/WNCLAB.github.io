@@ -1,6 +1,12 @@
 /******************************************************************************
  * Content
  ******************************************************************************/
+// @use "variables" as *;
+
+// @forward "variables" with (
+//   $max-content-width: $max-content-width
+// );
+$max-content-width: 800px !default;
 
 body {
   padding-bottom: 70px;
