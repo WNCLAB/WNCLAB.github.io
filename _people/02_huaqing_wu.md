@@ -9,7 +9,7 @@ redirect: https://huaqing-wu.github.io/
 scholar_userid: x4eKVeoAAAAJ&hl
 linkedin_username: huaqing-wu-a1b381148
 email: huaqing.wu1@ucalgary.ca
-category: Lab Director
+category: Lab Directors
 show: true
 rank: 2
 institute:

@@ -9,7 +9,7 @@ scholar_userid: 6hgXgUwAAAAJ
 redirect: https://qiang-john-ye.github.io/
 linkedin_username: qiang-john-ye-7a5746141
 email: qiang.ye@ucalgary.ca
-category: Lab Director
+category: Lab Directors
 show: true
 rank: 1
 institute:

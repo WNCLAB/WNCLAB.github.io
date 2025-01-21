@@ -9,7 +9,7 @@ scholar_userid: AsOm8tUAAAAJ
 redirect: https://liu-kaiyang.github.io/
 linkedin_username: kaiyang-liu-399458168
 email: kaiyang.liu@mun.ca
-category: Lab Director
+category: Lab Directors
 show: true
 rank: 3
 institute:
