@@ -11,5 +11,5 @@ email: aly.ahmad@ucalgary.ca
 github_username: alyeyad
 category: Current Students
 rank: 6
-show: true
+show: false
 ---
