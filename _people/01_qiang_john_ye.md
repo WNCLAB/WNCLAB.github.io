@@ -3,7 +3,7 @@ layout: page
 firstname: Qiang (John)
 lastname: Ye
 pronouns: he/him
-description: Assistant Professor, PhD, SMIEEE
+description: Assistant Professor, PhD, SMIEEE, <br/> IEEE ComSoc DL
 img: assets/img/people/Qiang_John_Ye_UCalgary.jpg
 scholar_userid: 6hgXgUwAAAAJ
 redirect: https://qiang-john-ye.github.io/
